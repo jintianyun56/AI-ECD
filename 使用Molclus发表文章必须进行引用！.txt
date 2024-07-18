@@ -1,0 +1,21 @@
+使用了Molclus的文章里不引用或错误地引用Molclus程序的现象极为严重！在此特别强调：
+
+
+如果你的研究中使用了Molclus程序（无论其中哪个组件），在发表的文章中都务必对Molclus进行正确的引用，这是基本的学术道德规范。
+
+1，使用此脚本时，请引用Jin, T. Y., Li, P. L., Wang, C. L., Tang, X. L., Cheng, M. M., Zong, Y., ... & Li, G. Q. (2021). Racemic bisindole alkaloids: structure, bioactivity, and computational study. Chinese Journal of Chemistry, 39(9), 2588-2598.
+2，相关教程：【天然产物ECD计算基础】 https://www.bilibili.com/video/BV1vg411s7Ep/?share_source=copy_web&vd_source=9503bbeab60f37b872073b6543539d63
+3，此脚本适合LINUX centos7.6, 对于超算PBS系统提交任务，需要适当修改.sh文件改为.pbs; 涉及gaussian, Multiwfn等软件路径的地方，请改为本系统路径
+
+计算过程中需要修改的地方
+06_sher01.txt
+09_nmr_rate.txt
+10_ecd_rate.txt
+
+怎么合理引用，看Molclus主页http://www.keinsci.com/research/molclus.html上的红字声明。
+
+恰当引用Molclus是对这个完全免费、不懈开发的程序的开发最好的支持！并且，请在文章正文里提及和引用Molclus，而不要只放到补充材料里，否则不仅读者难以注意到，而且也不会被纳入引用的统计。
+
+Molclus允许用于给别人代算时使用，但必须明确告诉对方在文章中需要明确引用Molclus程序。
+
+如果有Molclus使用上的问题，欢迎到http://bbs.keinsci.com的“量子化学”版块发帖咨询，分类设为“Molclus”，开发者会非常及时回复（通常在24小时内回复）。开发者不在其它任何其它中文论坛里解答Molclus的使用问题。
